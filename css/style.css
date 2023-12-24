@@ -1,0 +1,122 @@
+/* ---------------- MAIN STYLES ---------------- */
+* {
+    font-family: "urbanist", sans-serif;
+}
+
+body {
+    background-color: #0C0C0D;
+}
+
+/* ---------------- BOTH NAVBAR STYLES ---------------- */
+.navbar {
+    width: 100%;
+    border-bottom: 1px solid #838383;
+}
+
+.navbar * {
+    color: white;
+    text-align: center;
+}
+
+.nav-item {
+    padding: 10px 20px 0px 20px;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-link {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+}
+
+.nav-link:active, .nav-link:hover, .nav-link:visited {
+    color: white;
+}
+
+
+
+
+/* ---------------- BIG NAVBAR STYLES ---------------- */
+#big-navbar {
+    padding: 0;
+    height: 57px ;
+}
+
+#big-fluid, #big-navlist {
+    height: 100% !important;
+    margin: auto;
+}
+
+.nav-decor {
+    margin-top: 5px;
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+#big-4 > a {
+    color: gray !important;
+}
+
+#big-4 > .nav-decor {
+    background-color: gray;
+}
+
+
+
+
+/* ---------------- SMALL NAVBAR STYLES ---------------- */
+#small-toggle-button {
+    margin-top: 2px;
+}
+
+#small-navbar-brand {
+    padding-left: 30px;
+}
+
+.nav-link-small:active {
+    text-decoration: underline;
+}
+
+#navbar-small-icon {
+    transform: rotate(35deg) !important;
+}
+
+/* ---------------- INTRO STYLES ---------------- */
+#intro-container {
+    width: 100%;
+    margin-top: -58px;
+    height: 600px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-image {
+    background-image: url("../assets/orb.png");
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+#intro-title {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+    margin-top: 29px;
+}
