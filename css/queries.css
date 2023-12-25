@@ -1,0 +1,91 @@
+/* ---------------- MEDIUM AND LARGER ---------------- */
+@media (min-width: 768px) {
+    nav {
+        padding: 14px 100px 14px 100px !important;
+    }
+
+    .navbar-nav {
+        position: absolute;
+        right: 0;
+        padding-right: 100px;
+    }
+
+    .nav-item {
+        padding: 0px 20px;
+    }
+
+    #intro-container {
+        height: 80vh; 
+        margin-bottom: 20vh;    
+    }
+
+    #intro-subtitle {
+        font-size: 24px;
+        line-height: 160%;
+    }
+
+    #learn-more {
+        top: 50px;
+    }
+
+    #footer {
+        padding: 40px 80px 100px 240px;
+    }
+
+    #footer-brand {
+        margin-bottom: 30px;
+    }    
+
+    .footer-header {
+        margin-bottom: 30px;
+    }
+
+    #footer-email {
+        margin-top: 30px;
+    }
+}
+
+
+/* ---------------- SMALL AND SMALLER ---------------- */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        padding-top: 10px;
+    }
+
+    .nav-item {
+        padding: 10px;
+    }
+
+    #intro-text {
+        margin-top: -50px;
+    }
+
+    #intro-subtitle {
+        font-size: 18px;
+    }
+
+    #learn-more {
+        top: 40px;
+    }
+
+    #footer {
+        padding: 40px 40px 100px 40px;
+    }
+
+    #footer-brand {
+        margin-bottom: 10px;
+    }
+
+    .footer-col {
+        margin-bottom: 40px;
+    }
+
+    .footer-links {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+    
+    .footer-header {
+        margin-bottom: 10px;
+    }
+}
