@@ -132,6 +132,14 @@
     color: #3959ff;
 }
 
+.bi-cursor {
+    font-size: 40px !important;
+    width: 100%;
+    text-align: center !important;
+    position: relative !important;
+    top: 1px !important;
+}
+
 .research-icon {
     background-color: #2b392f;
 }
