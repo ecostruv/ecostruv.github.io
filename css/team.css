@@ -1,0 +1,93 @@
+#team-pentagon {
+    padding-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pentagon {
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.member {
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    transform: translateY(-50%) translateX(-50%);
+    transition: transform 0.5s ease-in-out, color 0.5s ; 
+    background: none;
+    border: none;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.member h5 {
+    font-weight: 700;
+}
+
+.member:hover {
+    transform: translateY(-50%) translateX(-50%) scale(1.2);
+    color: #f26d0f;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+#member1 { top: 0; left: 50%; }
+#member2 { top: 25%; left: 84%; }
+#member3 { top: 65%; left: 70%; }
+#member4 { top: 65%; left: 30%; }
+#member5 { top: 25%; left: 16%; }
+
+.member h2, .member p {
+    margin: 5px 0;
+}
+
+.modal-dialog {
+    height: 88vh;
+}
+
+
+
+.modal-content {
+    /* height: 80%; */
+    margin-top: 20%;
+    background-color: #222225;
+    padding: 20px;
+}
+
+.btn-close {
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.bio-name {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 36px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 400;
+}
+
+.bio-position {
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.bio-image {
+    max-width: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.bio-text {
+    font-family: 'Satoshi', sans-serif;
+}

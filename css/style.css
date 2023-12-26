@@ -16,7 +16,6 @@ body {
 nav {
     background-color: #0c0c0d30;
     z-index: 1;
-    /* margin-bottom: 1000px; */
 }
 
 #navbar-image {
@@ -36,13 +35,27 @@ nav {
     font-weight: 500;
 }
 
-.nav-item > a {
+.nav-link {
     color: white;
+    transition: color 0.5s;
 }
 
+.nav-link:hover, .nav-link:active {
+    color: #51aa6a;
+} 
 
 
+/* ---------------- BODY ---------------- */
+.intro-default {
+    height: 250px;
+    margin-top: 100px;
+}
 
+.title {
+    font-size: 60px;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+}
 
 /* ---------------- BODY ---------------- */
 #main {
@@ -111,9 +124,6 @@ nav {
     border-radius: 16px;
 }
 
-.accordion-item, .accordion-header, .accordion-collapse, .accordion-body, .accordion-button {
-    background: none;
-}
 
 /* ---------------- FOOTER ---------------- */
 #footer {
@@ -151,5 +161,10 @@ nav {
     display: block;
     margin-bottom: 5px;
     color: white;
+    transition: color 0.3s;
 }
 
+.footer-link:hover, .footer-link:active {
+    text-decoration: none;
+    color: #F26D0F !important;
+}
