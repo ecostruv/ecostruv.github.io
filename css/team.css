@@ -1,35 +1,24 @@
-#team-pentagon {
-    padding-top: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pentagon {
-    position: relative;
-    width: 600px;
-    height: 600px;
-}
-
+/* ---------------- MEMBER BIOS ---------------- */
 .member {
-    position: absolute;
-    width: 150px;
+    width: 160px;
     text-align: center;
-    transform: translateY(-50%) translateX(-50%);
-    transition: transform 0.5s ease-in-out, color 0.5s ; 
     background: none;
     border: none;
-    font-family: 'Satoshi', sans-serif;
+}
+
+.member:hover {
+    color: #f26d0f;
 }
 
 .member h5 {
     font-weight: 700;
+    font-family: 'Urbanist', sans-serif;
 }
 
-.member:hover {
-    transform: translateY(-50%) translateX(-50%) scale(1.2);
-    color: #f26d0f;
+.member p {
+    font-family: 'Satoshi', sans-serif;
 }
+
 
 .member img {
     width: 100px;
@@ -39,11 +28,7 @@
     margin: 0 auto 10px auto;
 }
 
-#member1 { top: 0; left: 50%; }
-#member2 { top: 25%; left: 84%; }
-#member3 { top: 65%; left: 70%; }
-#member4 { top: 65%; left: 30%; }
-#member5 { top: 25%; left: 16%; }
+
 
 .member h2, .member p {
     margin: 5px 0;
@@ -53,13 +38,10 @@
     height: 88vh;
 }
 
-
-
 .modal-content {
-    /* height: 80%; */
     margin-top: 20%;
-    background-color: #222225;
-    padding: 20px;
+    background: linear-gradient(180deg, #404647, #0c0f10 100%);
+    border: none;
 }
 
 .btn-close {
@@ -71,7 +53,7 @@
     text-align: center;
     padding-bottom: 10px;
     font-size: 36px;
-    font-family: 'Instrument Sans', sans-serif;
+    font-family: 'Urbanist', sans-serif;
     font-weight: 400;
 }
 
@@ -90,4 +72,145 @@
 
 .bio-text {
     font-family: 'Satoshi', sans-serif;
+}
+
+
+
+.subtask-container {
+    font-family: 'Satoshi', sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.subtask-icon {
+    padding: 8px;
+    border-radius: 18px;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.subtask-icon > i {
+    font-size: 48px;
+    position: relative;
+    top: -4px;
+}
+
+.subtask-name {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtask {
+    color: gray;
+    transition: transform 0.5s ease-in-out;
+}
+
+.marketing-icon {
+    background-color: #441814;
+}
+
+.marketing-icon > i {
+    color: #ae2012;
+}
+
+.design-icon {
+    background-color: #20092f;
+}
+
+.design-icon > i {
+    color: #7209b7;
+}
+
+.technology-icon {
+    background-color: #0f1e34;
+}
+
+.technology-icon > i {
+    color: #3959ff;
+}
+
+.research-icon {
+    background-color: #2b392f;
+}
+
+.research-icon > i {
+    color: #51aa6a;
+}
+
+
+
+#signatures {
+    text-align: right;
+}
+
+
+@media (min-width: 768px) {
+    #team-pentagon {
+        padding-top: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pentagon {
+        position: relative;
+        width: 600px;
+        height: 600px;
+        margin-top: -70px;
+    }
+
+    .member {
+        position: absolute;
+        transform: translateY(-50%) translateX(-50%);
+        transition: transform 0.5s ease-in-out, color 0.5s ; 
+    }
+
+    .member:hover {
+        transform: translateY(-50%) translateX(-50%) scale(1.2);
+    }
+
+    #member1 { top: 0; left: 50%; }
+    #member2 { top: 25%; left: 84%; }
+    #member3 { top: 65%; left: 70%; }
+    #member4 { top: 65%; left: 30%; }
+    #member5 { top: 25%; left: 16%; }
+
+    .modal-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    #team-pentagon, .pentagon {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #team-pentagon {
+        margin-bottom: 200px;
+    }
+
+    .member {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .bottom {
+        width: 100%;
+    }
+
+    .modal-content {
+        padding: 10px;
+    }
+
+    .bio-text {
+        margin: 0;
+    }
+
+    .subtask {
+        margin-bottom: 100px;
+    }
 }
