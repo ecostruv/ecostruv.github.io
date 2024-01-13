@@ -53,54 +53,82 @@
             Your browser does not support the video tag.
         </video>          
         <div id="intro-text">
-            <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" id="update-container">
+            <!-- <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" id="update-container">
                 <span id="update-title">
                     <span id="update-circle" class="material-symbols-outlined">adjust</span>
                     <div>What's new</div>
                 </span>
                 <span id="update-text">Website v1.0.0 published!</span>
-            </div>
+            </div> -->
             <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" id="intro-title">EcoStruv</div>
             <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" id="intro-subtitle">At EcoStruv, we leverage existing agribusiness systems, innovative chemical processes, and efficient design methodologies to revolutionize agriculture and its environmental impacts.</div>
             <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="500" ><button id="learn-more">Learn More</button></div>
         </div>
     </div>
+<!-- 
+    <img class="carousel-image d-block w-100" src="./assets/irl-0.png">
+    <img class="carousel-image d-block w-100" src="./assets/irl-1.png">
+    <img class="carousel-image d-block w-100" src="./assets/dark-0.png">
+    <img class="carousel-image d-block w-100" src="./assets/dark-1.png">
+    <img class="carousel-image d-block w-100" src="./assets/dark-2.png"> -->
+
+
+
 
     <!-- ---------------- MAIN ---------------- -->
     <div data-aos="fade-up" data-aos-duration="1000" class="container-fluid" id="main">
         <div data-aos="fade-up" data-aos-duration="1000" class="section-container" id="what-is">
-            <div class="section-title">About <span class="section-emphasis">Ecostruv</span></div>
-            <div class="text">EcoStruv is agriculture's lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae minus aperiam, quibusdam, soluta sequi assumenda impedit voluptatum praesentium voluptatibus maiores beatae. Atque id, iusto ipsam sunt ipsum in suscipit deleniti!</div>
+            <div class="section-title">About <span class="section-emphasis">EcoStruv</span></div>
+            <div class="text">Eutrophication, a pervasive environmental problem, is characterized by excessive algal or plant growth in bodies of water due to elevated levels of nutrients like nitrogen and phosphorus, often stemming from agricultural runoff. Modern synthetic fertilizers, rich in these nutrients, contribute significantly to this issue, causing Harmful Algal Blooms (HABs) with toxic cyanobacteria alongside dead zones.</div>
             <div class="row" id="what-row">
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <div class="what-col">
-                        <h4 class="what-heading">Heading</h4>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam nam ad ipsa nobis dicta adipisci aliquam neque explicabo ullam iusto consectetur qui at repudiandae officia molestiae omnis, impedit vel?
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/irl-0.png" class="carousel-image d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/irl-1.png" class="carousel-image d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/light-0.png" class="carousel-image d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/light-2.png" class="carousel-image d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/light-1.png" class="carousel-image d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="what-col">
-                        <h4 class="what-heading">Heading</h4>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam nam ad ipsa nobis dicta adipisci aliquam neque explicabo ullam iusto consectetur qui at repudiandae officia molestiae omnis, impedit vel?
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <div class="what-col">
-                        <h4 class="what-heading">Heading</h4>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam nam ad ipsa nobis dicta adipisci aliquam neque explicabo ullam iusto consectetur qui at repudiandae officia molestiae omnis, impedit vel?
+                        <h4 class="what-heading">Our Solution</h4>
+                        EcoStruv addresses the root cause of algal blooms by recycling nitrogen and phosphorus-rich effluent from farms into struvite, a slow-release fertilizer. Our goal is to intercept nutrient-heavy runoff before it reaches bodies of water, simultaneously providing farmers with a method to repurpose these nutrients in an environmentally friendly way.
+                        <br>
+                        <br>
+                        <br>
+                        <h4 class="what-heading">Innovation</h4>
+                        Our innovation is an electrochemical filtration system that captures and recycles excess nutrients before they can cause environmental harm. At the heart of EcoStruv is a multi-chamber tank that is installed alongside tile drainage systems on farms. This allows us to collect and store the nutrient-rich water running off fields. Inside the tank, our novel technology uses magnesium electrodes and an electric current to crystallize the nitrogen and phosphorus into struvite. These pure struvite crystals accumulate at the bottom of the tank and can then be harvested by farmers as a sustainable, slow-release fertilizer. Unlike other filters that only purify water, EcoStruv transforms pollution into a usable product.
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div data-aos="fade-up" data-aos-duration="1000" class="section-container">
-            <h5 class="bold-heading">Profit</h5>
-            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia at ex labore quo impedit adipisci nobis explicabo, dolorum corrupti debitis, recusandae, ut numquam dolore. Vero eum dolorem nulla facilis delectus!</div>
-        </div>
-    
-        <div data-aos="fade-up" data-aos-duration="1000" class="section-container">
-            <h5 class="bold-heading">Competitors</h5>
-            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia at ex labore quo impedit adipisci nobis explicabo, dolorum corrupti debitis, recusandae, ut numquam dolore. Vero eum dolorem nulla facilis delectus!</div>
         </div>
     </div>
 

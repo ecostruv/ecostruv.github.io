@@ -90,27 +90,6 @@ nav {
     font-size: 18px;
 }
 
-#what-row {
-    margin-top: 40px;
-}
-
-.what-col {
-    padding: 20px;
-
-    border: 1px solid #6f6f6f;
-    border-radius: 8px;
-    background-color: #26262A;
-    font-family: 'Satoshi', sans-serif;
-}
-
-.what-image {
-    max-width: 100%;
-}
-
-.what-heading {
-    font-weight: 800;
-}
-
 .bold-heading {
     font-weight: 800;
     font-size: 30px;
