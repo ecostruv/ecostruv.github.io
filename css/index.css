@@ -121,11 +121,14 @@
 
 #what-row {
     margin-top: 40px;
-    padding: 40px;
+}
+
+.what-subcolumn {
+    padding: 30px;
 }
 
 .what-col {
-    padding: 27px;
+    padding: 30px;
 
     border: 1px solid #6f6f6f;
     border-radius: 8px;
