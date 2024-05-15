@@ -1,5 +1,7 @@
 // handles redirects for form submissions
 
 function formSubmit() {
-    window.location.replace("https://ecostruv.tech/success")
+    setTimeout(() => {
+        window.location.replace("https://ecostruv.tech/success")
+    }, 1000);
 }
