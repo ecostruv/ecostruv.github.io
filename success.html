@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Insights</title>
     <link rel="icon" type="image/x-icon" href="./assets/green-gem.png">
 
     <!-- Styling -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/insights.css">
     <link rel="stylesheet" href="./css/queries.css">
 
     <!-- Fonts -->
@@ -45,54 +45,20 @@
         </div>
     </nav>
 
+    <!-- ---------------- INTRO ---------------- -->
+    <div data-aos="fade-up" data-aos-duration="2000" class="intro-default">
+        <h1 class="title">Thank You!</h1>
+    </div>
 
     <!-- ---------------- MAIN ---------------- -->
-    <div data-aos="fade-up" data-aos-duration="1000" class="container-fluid" id="main">
-        <div data-aos="fade-up" data-aos-duration="1000" class="row section-container" id="col-container">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="contact-container">
-                <h1 id="get-in-touch">Get in touch</h1>
-                <div class="text" id="contact-text">Have questions or feedback? Want to get updates from us? Send us a message or follow us out on these services!</div>
-                <a href="mailto:team@ecostruv.tech" data-aos="fade-up" data-aos-duration="1000" class="row contact-row" id="email">
-                    <div class="contact-icon col-2"><i class="bi bi-envelope-fill"></i></div>
-                    <div class="contact-details col-10">
-                        <div class="contact-name">Mail</div>
-                        <div class="contact">team@ecostruv.tech</div>
-                    </div>
-                </a>
-                <a href="https://www.linkedin.com/company/ecostruv/about" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="row contact-row" id="linkedin">
-                    <div class="contact-icon col-2"><i class="bi bi-linkedin"></i></div>
-                    <div class="contact-details col-10">
-                        <div class="contact-name">LinkedIn</div>
-                        <div class="contact">EcoStruv</div>
-                    </div>
-                </a>
-                <a href="https://instagram.com/ecostruv" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="row contact-row" id="facebook">
-                    <div class="contact-icon col-2"><i class="bi bi-instagram"></i></div>
-                    <div class="contact-details col-10">
-                        <div class="contact-name">Instagram</div>
-                        <div class="contact">ecostruv</div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="message-container">
-                <div id="message-div">
-                    <div id="message-title">Send us a message</div>
-                    <div id="message-message">We'll try our best to respond in 1-2 business days.</div>
-                    <div id="form-container">
-                        <form action="https://formspree.io/f/xwkgkryq" method="POST" target="_blank">
-                            <label class="form-section"><input class="form-input" placeholder="Name" type="text" name="name"></label>
-                            <label class="form-section"><input class="form-input" placeholder="Email" type="email" name="email"></label>
-                            <label class="form-section">
-                                <textarea id="message" placeholder="Message" class="form-input" name="message"></textarea>
-                            </label>
-                            <button type="submit" id="submit" onclick="formSubmit()">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="container-fluid" id="main">
         
+        <!-- ---------------- EXECUTIVE LETTER ---------------- -->
+        <div data-aos="fade-up" data-aos-duration="1000" class="section-container">
+            <!-- <h5 class="bold-heading">Letter from the Executives</h5> -->
+            <div class="text letter-paragraph">We've received your response. Click this <a href="https://ecostruv.tech/insights">link</a> to learn more.</div>
+    </div>
+
     <!-- ---------------- FOOTER ---------------- -->
     <div data-aos="fade-up" data-aos-duration="1000" class="row" id="footer">
         <div data-aos="fade-up" data-aos-duration="1000" class="footer-col col-sm-12 col-md-6 col-lg-8" id="footer-company">
@@ -123,7 +89,6 @@
         
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./js/form.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>AOS.init();</script>
 </body>
